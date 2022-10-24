@@ -1,72 +1,27 @@
 ---
-title: "Allan Lab - Home"
+title: "AIAL - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "AIAL at NCSU."
 sitemap: false
 permalink: /
 ---
 
-We are a dynamic research group at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter.
+This lab works at the intersection of Artificial Intelligence and education to design AI-enabled learning technologies with the goal of improving access to quality education for a diverse range of students.
+
+To that end, we are working on the following projects
+
+## Projects
+
+### AI-Assisted programming education:
+
+With new advances in AI-enabled adaptive technologies, adaptive educational technologies have become a prosperous field of research. In this project, we utilize cutting-edge ML and NLP approaches for modeling students' programming understanding and behavior. The models built from students' behavioral data can be used to provide students with adaptive scaffolding, including data-driven assessment, hints, and feedback. While accurate student models are critical for effective adaptation, the ultimate test of the effectiveness of student models is improving students' learning. Thus, the design and development of an intelligent tutoring system that can effectively deliver adaptive scaffolding to students is an essential part of this project.
 
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
-    </ol>
+### AI-infused STEM curriculum and technology development for K-12
 
-    <!-- Items -->
-    <div class="carousel-inner" markdown="0">
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SmartTipSide.jpg" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab.jpg" alt="Slide 4" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Fig_Science_Web.jpg" alt="Slide 5" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cake_web.jpg" alt="Slide 6" />
-        </div>
-    </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+The integration of AI into STEM fields is becoming more and more prevalent in emerging industries. As a result, AI skills and knowledge in the context of STEM problem-solving are becoming required skills for a competent STEM workforce. The goal of this project is the integration of AI-focused real-world STEM problem-solving skills with the K-12 mainstream curriculum. This research encompasses innovative curriculum design that teaches and scaffolds necessary AI-focused problem-solving skills delivered through innovative, engaging, and effective learning technologies. Finally, classroom studies are conducted to identify the effectiveness of the designed curriculum and technology and identify points for improvement and best pedagogical practices.
 
 
+### Increasing Diversity and retention for underrepresented students in STEM fields
+The goal of the AI-Assisted Learning lab is to increase equity and access to quality education for a diverse range of students. In addition to the design, implementation, and evaluation of engaging and relevant curriculum and learning technologies, the environmental factors affecting students' participation and retention should be carefully evaluated and address. In this project, we aim to address issues related to underrepresented students' engagement and retention by identifying and eliminating socio-psychological barriers through evidence-based interventions.
 
-
-To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
-
-We are located at Leiden University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). We exchange ideas and work with our neighbors from [Quantum Matter & Optics](http://www.physics.leidenuniv.nl/qo-home), as well as with the colleagues from our [world-class theory section](https://www.lorentz.leidenuniv.nl).
-
- **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-
-
-We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).
-
-<figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
-</figure>
