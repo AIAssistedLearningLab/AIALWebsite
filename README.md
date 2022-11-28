@@ -14,4 +14,10 @@ After that, you need to follow the instruction in [this document](https://docs.g
 
 ```
 cd /mnt/coe/engrwww/csc/CSC.RESEARCH/aial
-git clone 
+git pull
+``` 
+
+If for some reason you need to reclone the repo, you can use the following after you delete the contents of the `aial` folder (without deleting the `aial` folder)
+```
+git clone -b built https://github.ncsu.edu/AIAssistedLearningLab/AIAssistedLearningLab.github.ncsu.edu.git .
+```

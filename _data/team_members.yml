@@ -21,15 +21,15 @@
   info: PhD student
   email: mhoq@ncsu.edu
   number_educ: 1
-  education1: Example Bachelors
+  education1: BS Bangladesh University of Engineering and Technology
 
 - name: Madison Thomas
   photo: bio-photo.jpg
   info: PhD student
   email: mthoma27@ncsu.edu
   number_educ: 2
-  education1: BS Purdue
-  education2: MS Purdue
+  education1: BS Purdue University
+  education2: MS Purdue University
 
 - name: Melika
   photo: bio-photo.jpg
@@ -40,7 +40,7 @@
 
 - name: "This could be you!"
   photo: bio-photo.jpg
-  info: See <a href="http://pages.github.ncsu.edu/AIAssistedLearningLab/vacancies">openings</a> for more info
+  info: See <a href="http://research.csc.ncsu.edu/aial/vacancies">openings</a> for more info
   email: you@ncsu.edu
   number_educ: 0
   education1:
