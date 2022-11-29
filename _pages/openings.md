@@ -1,5 +1,5 @@
 ---
-title: "Allan Lab - Vacancies"
+title: "AIAL @ NCSU - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
