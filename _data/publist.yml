@@ -1,18 +1,17 @@
-- title: "Example with Highlight"
-  image: dummy.png
-  description: Example Publication with Highlight
-  authors: Example Author 1, Example Author 2
+- title: 'Adaptive Immediate Feedback for Block-Based Programming: Design and Evaluation'
+  description: Publication with Highlight
+  authors: Marwan, S., Akram, B., Barnes, T., and Price, W.
   link:
-    url: https://example.com
-    display: Example Display
-  highlight: 1
+    url: https://doi.org/10.1109/TLT.2022.3180984
+    display: 'doi: 10.1109/TLT.2022.3180984'
+  highlight: true
 
-- title: "Example without Highlight"
+- title: "Exploring Design Choices to Support Novices' Example Use During Creative Open-Ended Programming"
   image: dummy.png
-  description: Example Publication without Highlight
+  description: Publication without Highlight
   authors: 
-    Example Author 1, Example Author 2
+    Wang, W., Bobbadi, B., Meur, A., Akram, B., Barnes, T., Martens C., and, Price, T.
   link:
-    url: https://example.com
-    display: Example Display
-  highlight: 0
+    url: https://doi.org/10.1145/3478431.3499374
+    display: 'doi: 10.1145/3478431.3499374'
+  highlight: false
