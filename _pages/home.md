@@ -1,7 +1,7 @@
 ---
-title: "AIAL - Home"
+title: "AIAL Lab - Home"
 layout: homelay
-excerpt: "AIAL at NCSU."
+excerpt: "AIAL Lab at NCSU."
 sitemap: false
 permalink: /
 ---

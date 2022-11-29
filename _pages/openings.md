@@ -1,5 +1,5 @@
 ---
-title: "AIAL @ NCSU - Vacancies"
+title: "AIAL Lab - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
