@@ -1,6 +1,6 @@
 ---
 title: "AIAL Lab - Home"
-layout: homelay
+layout: textlay
 excerpt: "AIAL Lab at NCSU."
 sitemap: false
 permalink: /
