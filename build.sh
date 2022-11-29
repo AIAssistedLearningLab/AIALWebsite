@@ -2,7 +2,7 @@
 
 git worktree add ../_site built;
 
-bundle exec jekyll build -d ../_site;
+bundle exec jekyll build --config _config.yml,_vhost_config.yml -d ../_site;
 
 cd ../_site || exit;
 git add -A;
