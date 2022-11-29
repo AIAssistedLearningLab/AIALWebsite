@@ -4,6 +4,7 @@ layout: textlay
 excerpt: "Openings"
 sitemap: false
 permalink: /vacancies
+published: false
 ---
 
 # Open positions

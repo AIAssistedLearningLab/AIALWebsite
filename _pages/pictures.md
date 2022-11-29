@@ -3,6 +3,7 @@ title: "AIAL Lab - Pictures"
 layout: piclay
 excerpt: "AIAL Lab -- Pictures"
 permalink: /pictures/
+published: false
 ---
 
 # Pictures
