@@ -1,13 +1,12 @@
 - name: Bita Akram
   photo: bio-photo.jpg
-  info: Associate professor, started Jan 2015
+  info: Assistant Research professor, started Aug 2019
   email: bakram@ncsu.edu
-  number_educ: 5
-  education1: Master ETHZ, Diplomarbeit with <a href="http://www.physik.uzh.ch/groups/osterwalder/">J Osterwalder</a>, University of Zurich
-  education2: PhD St Andrews (while at Cornell University) with <a href="http://dpmc.unige.ch/gr_baumberger/index.html">Felix Baumberger</a> and <a href="http://davisgroup.lassp.cornell.edu/">JC Davis</a>
-  education3: Postdoc Cornell
-  education4: <a href="http://www.ethfellows.ethz.ch/">ETH fellow</a> at ETHZ with <a href="https://qudev.phys.ethz.ch">Andreas Wallraff</a>
-  education5: <a href="https://www.universiteitleiden.nl/en/news/2017/07/milan-allan-wins-bryan-r.-coles-prize">Bryan R. Coles Prize 2017</a>
+  number_educ: 3
+  education1: Ph.D. North Carolina State University 
+  education2: MSc University of Calgary
+  education3: BSc Sharify University of Technology
+
 
 - name: John Marsden
   photo: jmmarsde.jpg
@@ -31,19 +30,3 @@
   education1: BS Purdue University
   education2: MS Purdue University
 
-- name: Melika
-  photo: bio-photo.jpg
-  info: PhD student
-  email: example@ncsu.edu
-  number_educ: 1
-  education1: BS Example University
-
-- name: "This could be you!"
-  photo: bio-photo.jpg
-  info: See <a href="http://research.csc.ncsu.edu/aial/vacancies">openings</a> for more info
-  email: you@ncsu.edu
-  number_educ: 0
-  education1:
-  education2:
-  education3:
-  education4:
