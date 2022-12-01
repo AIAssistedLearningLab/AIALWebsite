@@ -17,7 +17,7 @@
   link:
     url: https://doi.org/10.1145/3478431.3499374
     display: 'doi: 10.1145/3478431.3499374'
-  highlight: false
+  highlight: true
 
 - title: "Gender, Self-Assessment, and Persistence in Computing: How gender differences in self-assessed ability reduce women's persistence in computer science"
   year: 2022
@@ -27,7 +27,7 @@
   link:
     url: https://doi.org/10.1145/3501385.3543963
     display: 'doi: 10.1145/3501385.3543963'
-  highlight: false
+  highlight: true
 
 - title: "Increasing Students' Persistence in Computer Science through a Lightweight Scalable Intervention."
   year: 2022
@@ -37,7 +37,7 @@
   link:
     url: https://doi.org/10.1145/3502718.3524815
     display: "doi: 10.1145/3502718.3524815"
-  highlight: false
+  highlight: true
 
 - title: Exploring Sequential Code Embeddings for Predicting Student Success in an Introductory Programming Course.
   year: 2022
@@ -77,7 +77,7 @@
   link:
     url: https://doi.org/10.1609/aaai.v36i11.21544
     display: "doi: 10.1609/aaai.v36i11.21544"
-  highlight: false
+  highlight: true
 
 - title: "Automating Personalized Feedback to Improve Students' Persistence in Computing"
   year: 2022
@@ -87,7 +87,7 @@
   link:
     url: https://doi.org/10.1145/3478432.3499144
     display: "doi: 10.1145/3478432.3499144"
-  highlight: false
+  highlight: true
 
 - title: "Gaining Insight into Effective Teaching of AI Problem-Solving Through CSEDM: A Case Study"
   year: 2021
