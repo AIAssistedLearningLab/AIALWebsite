@@ -15,7 +15,7 @@ permalink: /publications/
 
 {% assign number_printed = 0 %}
 
-{% assign publist = site.data.publist | sort: "year", "title" }
+{% assign publist = site.data.publist | sort: "year" %}
 {% for publi in publist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
