@@ -14,7 +14,9 @@ permalink: /publications/
 <!-- **At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications)** -->
 
 {% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
+
+{% assign publist = site.data.publist | sort: "year", "title" }
+{% for publi in publist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if publi.highlight %}
@@ -26,8 +28,8 @@ permalink: /publications/
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ publi.description }}</p>
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" /> -->
+  <!-- <p>{{ publi.description }}</p> -->
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
@@ -53,7 +55,7 @@ permalink: /publications/
 
 ## Full List of publications
 
-{% for publi in site.data.publist %}
+{% for publi in publist %}
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>

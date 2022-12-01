@@ -1,5 +1,7 @@
 - title: 'Adaptive Immediate Feedback for Block-Based Programming: Design and Evaluation'
-  description: Publication with Highlight
+  year: 2022
+  # image: dummy.png
+  # description: Publication with Highlight
   authors: Marwan, S., Akram, B., Barnes, T., and Price, W.
   link:
     url: https://doi.org/10.1109/TLT.2022.3180984
@@ -7,11 +9,221 @@
   highlight: true
 
 - title: "Exploring Design Choices to Support Novices' Example Use During Creative Open-Ended Programming"
-  image: dummy.png
-  description: Publication without Highlight
+  year: 2022
+  # image: dummy.png
+  # description: Publication without Highlight
   authors: 
     Wang, W., Bobbadi, B., Meur, A., Akram, B., Barnes, T., Martens C., and, Price, T.
   link:
     url: https://doi.org/10.1145/3478431.3499374
     display: 'doi: 10.1145/3478431.3499374'
   highlight: false
+
+- title: "Gender, Self-Assessment, and Persistence in Computing: How gender differences in self-assessed ability reduce women's persistence in computer science"
+  year: 2022
+  # image: 
+  # description: 
+  authors: Hunt C., Yoder S., Comment T., Price T., Akram B., Battestilli, L., Barnes, T., and Fisk S.
+  link:
+    url: https://doi.org/10.1145/3501385.3543963
+    display: 'doi: 10.1145/3501385.3543963'
+  highlight: false
+
+- title: "Increasing Students' Persistence in Computer Science through a Lightweight Scalable Intervention."
+  year: 2022
+  # image: 
+  # description: 
+  authors: Akram B., Fisk S., Yoder S., Hunt C., Price T., Battestilli L., and Barnes, T. 
+  link:
+    url: https://doi.org/10.1145/3502718.3524815
+    display: "doi: 10.1145/3502718.3524815"
+  highlight: false
+
+- title: Exploring Sequential Code Embeddings for Predicting Student Success in an Introductory Programming Course.
+  year: 2022
+  # image: 
+  # description: 
+  authors: Yoder, S., Hoq M., Brusilovski, P., Akram, B.
+  link:
+    url: https://doi.org/10.5281/zenodo.6983194
+    display: "doi: 10.5281/zenodo.6983194"
+  highlight: false
+
+- title: Predicting Student Performance with Control Flow Graph Embeddings
+  year: 2022
+  # image: 
+  # description: 
+  authors: Marsden, J., Yoder, S., Akram, B.
+  link:
+    url: https://doi.org/10.5281/zenodo.6983401
+    display: "doi: 10.5281/zenodo.6983401"
+  highlight: false
+
+- title: 'SANN: A Subtree-based Attention Neural Network Model for Student Success Prediction Through Source Code Analysis'
+  year: 2022
+  # image: 
+  # description: 
+  authors: Hoq, M., Brusilovski, P., Akram, B.
+  link:
+    url: https://doi.org/10.5281/zenodo.6983496
+    display: "doi: 10.5281/zenodo.6983496"
+  highlight: false
+
+- title: Towards an AI-infused Interdisciplinary Curriculum for Middle-grade Classrooms
+  year: 2022
+  # image: 
+  # description: 
+  authors: Akram, B., Yoder, S., Tatar, C., Boorugu, S., Aderemi, I., and Jiang, S.
+  link:
+    url: https://doi.org/10.1609/aaai.v36i11.21544
+    display: "doi: 10.1609/aaai.v36i11.21544"
+  highlight: false
+
+- title: "Automating Personalized Feedback to Improve Students' Persistence in Computing"
+  year: 2022
+  # image: 
+  # description: 
+  authors: Lina Battestilli, Susan Fisk, Cynthia Hunt, Akram, B., Spencer Yoder, Thomas Price and Tiffany Barnes
+  link:
+    url: https://doi.org/10.1145/3478432.3499144
+    display: "doi: 10.1145/3478432.3499144"
+  highlight: false
+
+- title: "Gaining Insight into Effective Teaching of AI Problem-Solving Through CSEDM: A Case Study"
+  year: 2021
+  # image: 
+  # description: 
+  authors: Yoder, S., Tatar, C., Aderemi, I., Boorugu, S., Jiang, S., and Akram, B.
+  link:
+    url: https://ceur-ws.org/Vol-3051/CSEDM_11.pdf
+    display: "CEUR-WS: Vol 3051 Paper 11"
+  highlight: false
+
+- title: Development and Validation of the Middle Grades Computer Science Concept Inventory (MG-CSCI) assessment
+  year: 2020
+  # image: 
+  # description: 
+  authors: Rachmatullah, A., Akram, B., Boulden, D., Mott, B., Boyer, K., Lester, J., & Wiebe, E.
+  link:
+    url: https://doi.org/10.29333/ejmste/116600
+    display: "doi: 10.29333/ejmste/116600"
+  highlight: false
+
+- title: Promoting computer science learning with block-based programming and narrative-centered gameplay
+  year: 2020
+  # image: 
+  # description: 
+  authors: Min, W., Mott, B., Park, K., Taylor, S., Akram, B., Wiebe, E., & Lester, J.
+  link:
+    url: https://doi.org/10.1109/CoG47356.2020.9231881
+    display: "doi: 10.1109/CoG47356.2020.9231881"
+  highlight: false
+
+- title: Automated Assessment of Computer Science Competencies from Student Programs with Gaussian Process Regression
+  year: 2020
+  # image: 
+  # description: 
+  authors: Akram, B., Azizolsoltani, H., Min, W., Navied, A., Wiebe, E., Mott, B., Boyer, K., and Lester. J.
+  link:
+    url: https://educationaldatamining.org/files/conferences/EDM2020/papers/paper_113.pdf
+    display: "EDM 2020 Paper 113"
+  highlight: false
+
+- title: A conceptual assessment framework for K-12 computer science rubric design
+  year: 2020
+  # image: 
+  # description: 
+  authors: Akram, B., Min, W., Wiebe, E., Navied, A., Mott, B., Boyer, K. E., & Lester, J.
+  link:
+    url: https://doi.org/10.1145/3328778.3372643
+    display: "doi: 10.1145/3328778.3372643"
+  highlight: false
+
+- title: A Data-Driven Approach to Automatically Assessing Concept-Level CS Competencies Based on Student Programs
+  year: 2020
+  # image: 
+  # description: 
+  authors: Akram, B., Azizolsoltani, H., Min, W., Wiebe, E., Navied, A., Mott, B., Boyer, K., & Lester, J.
+  link:
+    url: https://ceur-ws.org/Vol-2734/paper10.pdf
+    display: "CEUR-WS: Volume 2734 Paper 10"
+  highlight: false
+
+- title: "CEO: A Triangulated Evaluation of a Modeling-Based CT-Infused CS Activity for Non-CS Middle Grade Students"
+  year: 2019
+  # image: 
+  # description: 
+  authors: Lytle, N., Cateté, V., Dong, Y., Boulden, D., Akram, B., Houchins, J., Barnes, T. and Wiebe, E.
+  link:
+    url: https://doi.org/10.1145/3300115.3309527
+    display: "doi: 10.1145/3300115.3309527"
+  highlight: false
+
+- title: "Computational Thinking Integration into Middle Grades Science Classrooms: Strategies for Meeting the Challenges"
+  year: 2018
+  # image: 
+  # description: 
+  authors: Boulden, D., Wiebe, E., Akram, B., Buffum, P., Aksit, O., Mott, B., Boyer, K., and Lester. J.
+  link:
+    url: https://eric.ed.gov/?id=EJ1201235
+    display: "ERIC: EJ1201235"
+  highlight: false
+
+- title: "Assessing Middle School Students' Computational Thinking Through Programming Trajectory Analysis"
+  year: 2019
+  # image: 
+  # description: 
+  authors: Akram, B., Min, W., Wiebe, E., Mott, B., Boyer, K.E. and Lester, J.
+  link:
+    url: https://doi.org/10.1145/3287324.3293798
+    display: "doi: 10.1145/3287324.3293798"
+  highlight: false
+
+- title: Improving Stealth Assessment in Game-based Learning with LSTM-based Analytics
+  year: 2018
+  # image: 
+  # description: 
+  authors: Akram, B., Min, W., Wiebe, E., Mott, B., Boyer, K., and Lester. J.
+  link:
+    url: https://par.nsf.gov/servlets/purl/10100664
+    display: "NSF PAR: 10100664"
+  highlight: false
+
+- title: "Infusing Computational Thinking into Middle Grade Science Classrooms: Lessons Learned"
+  year: 2018
+  # image: 
+  # description: 
+  authors: Catete, V., Lytle, N., Dong, Y., Boulden, D., Akram, B., Houchins, J., Barnes, T., Wiebe, E., Lester, J., Mott, B., Boyer, K.
+  link:
+    url: https://doi.org/10.1145/3265757.3265778
+    display: "doi: 10.1145/3265757.3265778"
+  highlight: false
+
+- title: "CINAPACT-splines: A family of infinitely smooth, accurate and compactly supported splines"
+  year: 2015
+  # image: 
+  # description: 
+  authors: Akram, B., Alim, U., and Samavati, F.
+  link:
+    url: https://doi.org/10.1007/978-3-319-27857-5_73
+    display: "doi: 10.1007/978-3-319-27857-5_73"
+  highlight: false
+
+- title: "Agents, Models, and Ethics: Importance of Interdisciplinary Explorations in AI Education"
+  year: 2022
+  # image: 
+  # description: 
+  authors: Jiang, S,. et. al.
+  link:
+    url: 
+    display:
+  highlight: false
+# Template for new publications
+# - title: 
+#   # image: 
+#   # description: 
+#   authors: 
+#   link:
+#     url: 
+#     display:
+#   highlight: false
