@@ -10,8 +10,6 @@ permalink: /
 
 This lab works at the intersection of Artificial Intelligence and education to design AI-enabled learning technologies with the goal of improving access to quality education for a diverse range of students.
 
-To that end, we are working on the following projects
-
 ## Projects
 
 ### AI-Assisted programming education:
