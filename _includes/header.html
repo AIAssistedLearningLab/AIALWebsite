@@ -14,7 +14,7 @@
 			{% if page.url contains navpage.url %}
 				{% assign aria-current = 'page' %}
 			{% endif %}
-			<a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}{{ navpage.url }}" aria-current="{{ aria-current }}">{{ navpage.title }}</a>
+			<a class="nav-item nav-link" href="{{ navpage.url | relative_url }}" aria-current="{{ aria-current }}">{{ navpage.title }}</a>
 		{% endfor %}
 		</div>	
 	</div>
