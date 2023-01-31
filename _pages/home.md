@@ -3,7 +3,7 @@ title: "AIAL Lab - Home"
 layout: textlay
 excerpt: "AIAL Lab at NCSU."
 sitemap: false
-permalink: /
+permalink: /home/
 ---
 
 # Welcome to the AI Assisted Learning Lab
