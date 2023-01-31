@@ -3,6 +3,8 @@ title: "AIAL Lab - Home"
 layout: textlay
 excerpt: "AIAL Lab at NCSU."
 sitemap: false
+redirect_from:
+    - /
 permalink: /home/
 ---
 
