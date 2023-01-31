@@ -18,6 +18,20 @@ include:
   - .htaccess
   - _pages
 
+navigation:
+  - title: Home
+    url: /home/
+  - title: Team
+    url: /team/
+  - title: Publications
+    url: /publications/
+  # - title: Vacancies
+  #   url: /vacancies/
+  # - title: Research
+  #   url: /research/
+  # - title: Pics
+  #   url: /pictures/
+
 sass:
   sass_dir: _sass
 
