@@ -1,21 +1,23 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<!-- This is our logo -->
-	<a class="navbar-brand" href="{{ '' | relative_url }}/"><img src="{{ '/images/logopic/logo.png' | relative_url }}" height="75" /></a>
+	<div class="container-fluid">
+		<!-- This is our logo -->
+		<a class="navbar-brand" href="{{ '' | relative_url }}/"><img src="{{ '/images/logopic/logo.png' | relative_url }}" height="75" /></a>
 
 
-	<!-- This is the button that toggles the hamburger button and navigation -->
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsed" aria-controls="navbarCollapsed" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="icon-bar"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-		<div class="nav navbar-nav navbar-right">
-		{% for navpage in site.navigation %}
-			{% assign aria-current = false %}
-			{% if page.url contains navpage.url %}
-				{% assign aria-current = 'page' %}
-			{% endif %}
-			<a class="nav-item nav-link" href="{{ navpage.url | relative_url }}" aria-current="{{ aria-current }}">{{ navpage.title }}</a>
-		{% endfor %}
-		</div>	
+		<!-- This is the button that toggles the hamburger button and navigation -->
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapsed" aria-controls="navbarCollapsed" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapsed">
+			<div class="navbar-nav navbar-right">
+			{% for navpage in site.navigation %}
+				{% assign aria-current = false %}
+				{% if page.url contains navpage.url %}
+					{% assign aria-current = 'page' %}
+				{% endif %}
+				<a class="nav-item nav-link" href="{{ navpage.url | relative_url }}" aria-current="{{ aria-current }}">{{ navpage.title }}</a>
+			{% endfor %}
+			</div>	
+		</div>
 	</div>
 </nav>
