@@ -14,10 +14,10 @@ baseurl: /AIAssistedLearningLab
 url: https://pages.github.ncsu.edu
 domain: pages.github.ncsu.edu
 
-plugins:
+whitelist:
   - jekyll-redirect-from
 
-whitelist:
+plugins:
   - jekyll-redirect-from
 
 include:
