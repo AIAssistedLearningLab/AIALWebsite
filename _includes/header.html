@@ -9,15 +9,15 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapsed">
-			<div class="navbar-nav navbar-right">
+			<ul class="navbar-nav navbar-right">
 			{% for navpage in site.navigation %}
 				{% assign aria-current = false %}
 				{% if page.url contains navpage.url %}
 					{% assign aria-current = 'page' %}
 				{% endif %}
-				<a class="nav-item nav-link" href="{{ navpage.url | relative_url }}" aria-current="{{ aria-current }}">{{ navpage.title }}</a>
+				<li><a class="nav-item nav-link" href="{{ navpage.url | relative_url }}" aria-current="{{ aria-current }}">{{ navpage.title }}</a></li>
 			{% endfor %}
-			</div>	
+			</ul>	
 		</div>
 	</div>
 </nav>
