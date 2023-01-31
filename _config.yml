@@ -10,7 +10,7 @@ title: AIAL Lab
 email: bakram@ncsu.edu
 description: > # this means to ignore newlines until "baseurl:"
   Website of the AI Assisted Learning Lab.
-baseurl: /AIAssistedLearningLab
+baseurl: /AIAssistedLearningLab/home/
 url: https://pages.github.ncsu.edu
 domain: pages.github.ncsu.edu
 
