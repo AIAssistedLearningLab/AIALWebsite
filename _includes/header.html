@@ -9,12 +9,12 @@
 	</button>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 		<div class="nav navbar-nav navbar-right">
-		{% for page in site.navigation %}
+		{% for navpage in site.navigation %}
 			{% assign aria-current = false %}
-			{% if page.url contains item.url %}
+			{% if page.url contains navpage.url %}
 				{% assign aria-current = 'page' %}
 			{% endif %}
-			<a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" aria-current="{{ aria-current }}">{{ page.title }}</a>
+			<a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}{{ navpage.url }}" aria-current="{{ aria-current }}">{{ navpage.title }}</a>
 		{% endfor %}
 		</div>	
 	</div>
