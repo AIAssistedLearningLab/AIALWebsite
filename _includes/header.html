@@ -12,10 +12,12 @@
 			<ul class="navbar-nav navbar-right">
 			{% for navpage in site.navigation %}
 				{% assign aria-current = false %}
+				{% assign active = nil %}
 				{% if page.url contains navpage.url %}
 					{% assign aria-current = 'page' %}
+					{% assign active = 'active' %}
 				{% endif %}
-				<li><a class="nav-item nav-link" href="{{ navpage.url | relative_url }}" aria-current="{{ aria-current }}">{{ navpage.title }}</a></li>
+				<li><a class="nav-item nav-link {{ active }}" href="{{ navpage.url | relative_url }}" aria-current="{{ aria-current }}">{{ navpage.title }}</a></li>
 			{% endfor %}
 			</ul>	
 		</div>
