@@ -28,7 +28,7 @@ permalink: /publications/
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
-  <!-- <img src="{{ '/images/pubpic' | relative_url}}/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" /> -->
+  <!-- <img src="{{ '/assets/images/pubpic' | relative_url}}/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" /> -->
   <!-- <p>{{ publi.description }}</p> -->
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>

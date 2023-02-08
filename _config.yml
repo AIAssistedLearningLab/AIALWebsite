@@ -38,9 +38,6 @@ navigation:
   # - title: Pics
   #   url: /pictures/
 
-sass:
-  sass_dir: _sass
-
 # Conversion
 markdown: kramdown
 highlighter: rouge

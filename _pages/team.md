@@ -22,7 +22,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ '/images/teampic' | relative_url }}/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
@@ -142,7 +142,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ '/images/teampic' | relative_url }}/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">
