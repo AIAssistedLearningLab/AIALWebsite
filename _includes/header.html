@@ -13,7 +13,11 @@
 			{% for navpage in site.navigation %}
 				{% assign aria-current = false %}
 				{% assign active = nil %}
-				{% if page.url contains navpage.url %}
+				{% assign navpage_url_len = navpage.url | size %}
+				{% assign page_url_len = page.url | size %}
+				{% assign end_start_idx = page_url_len | minus: navpage_url_len %}
+				{% assign page_url_end = page.url | slice: end_start_idx, navpage_url_len %}
+				{% if page_url_end == navpage.url %}
 					{% assign aria-current = 'page' %}
 					{% assign active = 'active' %}
 				{% endif %}

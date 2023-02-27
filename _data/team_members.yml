@@ -2,33 +2,35 @@
   photo: bakram.jpeg
   info: Assistant Research professor, started Aug 2019
   email: bakram@ncsu.edu
-  number_educ: 3
-  education1: Ph.D. North Carolina State University 
-  education2: MSc University of Calgary
-  education3: BSc Sharify University of Technology
-
+  education: 
+    - Ph.D. North Carolina State University 
+    - MSc University of Calgary
+    - BSc Sharify University of Technology
+  local_webpage: true
+  webpage: /team/akram
+  webpage_desc: My CV
 
 - name: John Marsden
   photo: jmmarsde.jpg
   info: PhD student
   email: jmmarsde@ncsu.edu
-  number_educ: 1
-  education1: BS Abilene Christian University
+  education: 
+    - BS Abilene Christian University
 
 - name: Muntasir Hoq
   photo: mhoq.jpg
   info: PhD student
   email: mhoq@ncsu.edu
-  number_educ: 1
-  education1: BS Bangladesh University of Engineering and Technology
+  education: 
+    - BS Bangladesh University of Engineering and Technology
 
 - name: Madison Thomas
   photo: mthoma27.jpg
   info: PhD student
   email: mthoma27@ncsu.edu
-  number_educ: 2
-  education1: MS Purdue University
-  education2: BS Purdue University
+  education: 
+    - MS Purdue University
+    - BS Purdue University
 
 # - name: Melika Ahmadi Ranjbar
 #   photo: mahmadi.jpg
