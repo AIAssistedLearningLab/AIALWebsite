@@ -22,9 +22,9 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="profilepic" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}</i><br>
+  <i>{{ member.info }}</i>
   <i>{% if member.webpage %}
     {%- assign member_page_href = member.webpage -%}
     {%- if member.local_webpage -%}
@@ -59,7 +59,7 @@ permalink: /team/
 
 
 
-## Master and Bachelor Students
+<!-- ## Master and Bachelor Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -72,8 +72,8 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
+  <!-- <ul style="overflow: hidden"> -->
+<!-- 
   {% if member.education %}
     {% for education in member.education %}
     <li> {{ education }} </li>
@@ -94,7 +94,7 @@ permalink: /team/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %}
+{% endif %} -->
 
 
 ## Alumni
@@ -109,7 +109,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="profilepic img-responsive" width="25%" style="float: left" />
+  <img src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="profilepic alum" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">

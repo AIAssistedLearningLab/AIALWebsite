@@ -1,6 +1,6 @@
 - name: Bita Akram
   photo: bakram.jpeg
-  info: Assistant Research professor, started Aug 2019
+  info: Assistant Research professor
   email: bakram@ncsu.edu
   education: 
     - Ph.D. North Carolina State University 
@@ -8,7 +8,7 @@
     - BSc Sharify University of Technology
   local_webpage: true
   webpage: /team/akram
-  webpage_desc: My CV
+  webpage_desc: CV
 
 - name: John Marsden
   photo: jmmarsde.jpg
@@ -25,7 +25,7 @@
     - BS Bangladesh University of Engineering and Technology
 
 - name: Madison Thomas
-  photo: mthoma27.jpg
+  photo: mthoma27.png
   info: PhD student
   email: mthoma27@ncsu.edu
   education: 
