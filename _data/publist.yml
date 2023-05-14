@@ -218,6 +218,17 @@
     url: 
     display:
   highlight: false
+
+- title: 'Analysis of an Explainable Student Performance Prediction Model in an Introductory Programming Course'
+  year: 2023
+  # image: dummy.png
+  # description: Publication with Highlight
+  authors: Hoq, M., Brusilovsky, P.,, and Akram, B.
+  link:
+    url: https://drive.google.com/file/d/11LcrhHbJE8Yklh9TdzDnUEjUmDOZSYYV/view?usp=sharing
+    display: 'Drive Link'
+  highlight: true
+
 # Template for new publications
 # - title: 
 #   # image: 
