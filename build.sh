@@ -1,5 +1,6 @@
 #!/bin/bash
 
+bundle install;
 git worktree add ../_site built;
 
 bundle exec jekyll build --config _config.yml,_vhost_config.yml -d ../_site;
