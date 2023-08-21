@@ -1,3 +1,23 @@
+- title: 'SANN: Programming Code Representation Using Attention Neural Network with Optimized Subtree Extraction'
+  year: 2023
+  # image: dummy.png
+  # description: Publication with Highlight
+  authors: Hoq, M., Chilla, S.R., Ranjbar, M., Brusilovsky, P., and Akram, B.
+  link:
+    url: https://drive.google.com/file/d/1gPyskVlMwm0aJdfQqOvevX0MYM79PpGG/view?usp=sharing
+    display: 'doi: 10.1145/3583780.3615047'
+  highlight: true
+
+- title: 'Analysis of an Explainable Student Performance Prediction Model in an Introductory Programming Course'
+  year: 2023
+  # image: dummy.png
+  # description: Publication with Highlight
+  authors: Hoq, M., Brusilovsky, P., and Akram, B.
+  link:
+    url: https://zenodo.org/record/8115693
+    display: 'doi: 10.5281/zenodo.8115693'
+  highlight: true
+
 - title: 'Adaptive Immediate Feedback for Block-Based Programming: Design and Evaluation'
   year: 2022
   # image: dummy.png
@@ -17,7 +37,7 @@
   link:
     url: https://doi.org/10.1145/3478431.3499374
     display: 'doi: 10.1145/3478431.3499374'
-  highlight: true
+  highlight: false
 
 - title: "Gender, Self-Assessment, and Persistence in Computing: How gender differences in self-assessed ability reduce women's persistence in computer science"
   year: 2022
@@ -218,16 +238,6 @@
     url: 
     display:
   highlight: false
-
-- title: 'Analysis of an Explainable Student Performance Prediction Model in an Introductory Programming Course'
-  year: 2023
-  # image: dummy.png
-  # description: Publication with Highlight
-  authors: Hoq, M., Brusilovsky, P., and Akram, B.
-  link:
-    url: https://drive.google.com/file/d/11LcrhHbJE8Yklh9TdzDnUEjUmDOZSYYV/view?usp=sharing
-    display: 'Drive Link'
-  highlight: true
 
 # Template for new publications
 # - title: 
