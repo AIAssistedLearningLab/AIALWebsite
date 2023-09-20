@@ -8,7 +8,7 @@ redirect_from:
 permalink: /home/
 ---
 
-![AIAL Logo]({{ '/assets/images/logopic/logo.svg' | relative_url }}){: width="80%" class="mx-auto d-block" }
+![AIAL Logo]({{ '/assets/images/logopic/logo.svg' | relative_url }}){: width="70%" class="mx-auto d-block" }
 
 # Welcome to the AI Assisted Learning Lab
 

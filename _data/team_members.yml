@@ -24,17 +24,10 @@
   education: 
     - BS Bangladesh University of Engineering and Technology
 
-- name: Madison Thomas
-  photo: mthoma27.png
+- name: Anurata Hridi
+  photo: aphridi.png
   info: PhD student
-  email: mthoma27@ncsu.edu
-  education: 
-    - MS Purdue University
-    - BS Purdue University
-
-# - name: Melika Ahmadi Ranjbar
-#   photo: mahmadi.jpg
-#   info: PhD student
-#   email: mahmadi@ncsu.edu
-#   number_educ: 1
-#   education1: BS Computer Engineering
+  email: aphridi@ncsu.edu
+  education:
+    - BS Bangladesh University of Engineering and Technology
+    - MS Clemson University
