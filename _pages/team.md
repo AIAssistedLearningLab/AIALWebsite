@@ -22,7 +22,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="profilepic" />
+  <canvas data-src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="profilepic"></canvas>
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
   <i>{% if member.webpage %}
@@ -109,7 +109,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="profilepic alum" />
+  <canvas data-src="{{ '/assets/images/teampic' | relative_url }}/{{ member.photo }}" class="profilepic alum"></canvas>
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">
