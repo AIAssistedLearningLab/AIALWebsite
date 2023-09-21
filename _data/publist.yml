@@ -18,7 +18,7 @@
     display: 'doi: 10.5281/zenodo.8115693'
   highlight: true
   
-  - title: 'Detecting ChatGPT-Generated Code in a CS1 Course'
+- title: 'Detecting ChatGPT-Generated Code in a CS1 Course'
   year: 2023
   # image: dummy.png
   # description: Publication with Highlight
