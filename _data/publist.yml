@@ -17,6 +17,16 @@
     url: https://zenodo.org/record/8115693
     display: 'doi: 10.5281/zenodo.8115693'
   highlight: true
+  
+  - title: 'Detecting ChatGPT-Generated Code in a CS1 Course'
+  year: 2023
+  # image: dummy.png
+  # description: Publication with Highlight
+  authors: Hoq, M., Shi, Y., Leinonen, J., Babalola, D., Lynch, C. and Akram, B.
+  link:
+    url: https://ceur-ws.org/Vol-3487/paper2.pdf
+    display: 'https://ceur-ws.org/Vol-3487/paper2.pdf'
+  highlight: false
 
 - title: 'Adaptive Immediate Feedback for Block-Based Programming: Design and Evaluation'
   year: 2022
