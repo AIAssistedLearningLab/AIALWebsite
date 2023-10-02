@@ -45,11 +45,17 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 theme: minima
+
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
-
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  
 # Markdown Processing
 kramdown:
   input: GFM

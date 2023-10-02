@@ -1,4 +1,4 @@
-name: Jekyll Site Building
+name: Test Site Building
 on:
   push:
     branches: [ "main" ]
