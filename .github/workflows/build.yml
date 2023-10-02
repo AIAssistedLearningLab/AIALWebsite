@@ -8,8 +8,17 @@ jobs:
   build:
     runs-on: [ "self-hosted" ]
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v3
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          path: main
+      - name: Checkout gh-built branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-built
+          path: gh-built
+      - name: Change to main folder
+        run: cd main
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -17,16 +26,12 @@ jobs:
           ruby-version: '3.1.4'
       - name: Install dependencies
         run: bundle install
-      - name: Setup build worktree
-        run: git worktree add ${{ runner.temp }}/${{ github.sha }}_site
-      - name: Checkout gh-built branch
-        run: git -C ${{ runner.temp }}/${{ github.sha }}_site switch gh-built
       - name: Build site for github
-        run: bundle exec jekyll build --config _config.yml -d {{ runner.temp }}/${{ github.sha }}_site
+        run: bundle exec jekyll build --config _config.yml -d ../site
       - name: Add all built files
-        run: git -C ${{ runner.temp }}/${{ github.sha }}_site add -A
+        run: git -C ../site add -A
       - name: Commit newly built files
-        run: git -C ${{ runner.temp }}/${{ github.sha }}_site commit -m "Update site"
+        run: git -C ../site commit -m "Update site"
       - name: Push the new changes
-        run: git -C ${{ runner.temp }}/${{ github.sha }}_site push 
+        run: git -C ../site push 
 
