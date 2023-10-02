@@ -1,0 +1,11 @@
+name: Production build
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+    with:
+      config: '_config.yml,_vhost_config.yml'
+      branch: 'built'

@@ -1,9 +1,15 @@
-name: Test Site Building
+name: Build Website for Caller
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_call:
+    inputs:
+      config:
+        description: 'A comma-delimited list of config files to use when building the site'
+        required: true
+        type: string
+      branch:
+        description: 'The branch to store the website artifacts in'
+        required: true
+        type: string
 jobs:
   build:
     runs-on: [ "self-hosted" ]
@@ -15,22 +21,22 @@ jobs:
       - name: Checkout gh-built branch
         uses: actions/checkout@v4
         with:
-          ref: gh-built
-          path: gh-built
-      - name: Change to main folder
-        run: cd main
+          ref: ${{ inputs.branch }}
+          path: site
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1.4'
       - name: Install dependencies
         run: bundle install
+        working-directory: main
       - name: Build site for github
-        run: bundle exec jekyll build --config _config.yml -d ../site
+        run: bundle exec jekyll build --config ${{ inputs.config }} -d ../site
+        working-directory: main
       - name: Add all built files
-        run: git -C ../site add -A
+        run: git -C site add -A
       - name: Commit newly built files
-        run: git -C ../site commit -m "Update site"
+        run: git -C site commit -m "Update site"
       - name: Push the new changes
-        run: git -C ../site push 
+        run: git -C site push 
 

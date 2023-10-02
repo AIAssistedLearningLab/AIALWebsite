@@ -1,0 +1,9 @@
+name: Test build
+on:
+  pull_request:
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+    with:
+      config: '_config.yml'
+      branch: 'gh-built'
