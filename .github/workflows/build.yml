@@ -10,8 +10,6 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v3
-      - name: Setup build tool cache
-        run: mkdir -p
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
         with:
