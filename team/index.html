@@ -2,6 +2,7 @@
 <html>
 
   <head>
+  <base href="https://research.csc.ncsu.edu/aial" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +11,8 @@
   <link rel="stylesheet" href="/aial/assets/css/main.css">
   <link rel="stylesheet" href="/aial/assets/css/bootstrap.min.css">
   <link rel="canonical" href="/aial/team/">
-<link rel="shortcut icon" type ="image/x-icon" href="/aial/assets/images/favicon.svg">
-
+  <script src="https://cdn.jsdelivr.net/npm/context-filter-polyfill/dist/index.min.js"></script>
+  <link rel="shortcut icon" type ="image/x-icon" href="/aial/assets/images/favicon.svg">
 </head>
 
 
@@ -76,7 +77,7 @@
 <div class="row">
 
   <div class="col-sm-6 clearfix">
-    <p><img src="/aial/assets/images/teampic/bakram.jpeg" class="profilepic" /></p>
+    <canvas data-src="/aial/assets/images/teampic/bakram.jpeg" class="profilepic"></canvas>
     <h4>Bita Akram</h4>
     <p><i>Assistant Research professor</i>
   <i><a href="/aial/team/akram">CV</a></i></p>
@@ -96,7 +97,7 @@
   </div>
 
   <div class="col-sm-6 clearfix">
-    <p><img src="/aial/assets/images/teampic/jmmarsde.jpg" class="profilepic" /></p>
+    <canvas data-src="/aial/assets/images/teampic/jmmarsde.jpg" class="profilepic"></canvas>
     <h4>John Marsden</h4>
     <p><i>PhD student</i>
   <i></i></p>
@@ -116,7 +117,7 @@
 <div class="row">
 
   <div class="col-sm-6 clearfix">
-    <p><img src="/aial/assets/images/teampic/mhoq.jpg" class="profilepic" /></p>
+    <canvas data-src="/aial/assets/images/teampic/mhoq.jpg" class="profilepic"></canvas>
     <h4>Muntasir Hoq</h4>
     <p><i>PhD student</i>
   <i></i></p>
@@ -132,17 +133,17 @@
   </div>
 
   <div class="col-sm-6 clearfix">
-    <p><img src="/aial/assets/images/teampic/mthoma27.png" class="profilepic" /></p>
-    <h4>Madison Thomas</h4>
+    <canvas data-src="/aial/assets/images/teampic/aphridi.png" class="profilepic"></canvas>
+    <h4>Anurata Hridi</h4>
     <p><i>PhD student</i>
   <i></i></p>
     <ul style="overflow: hidden">
 
   
     
-    <li> MS Purdue University </li>
+    <li> BS Bangladesh University of Engineering and Technology </li>
     
-    <li> BS Purdue University </li>
+    <li> MS Clemson University </li>
     
   
 
@@ -163,7 +164,7 @@
 <div class="row">
 
   <div class="col-sm-6 clearfix">
-    <p><img src="/aial/assets/images/teampic/smyoder.jpg" class="profilepic alum" /></p>
+    <canvas data-src="/aial/assets/images/teampic/smyoder.jpg" class="profilepic alum"></canvas>
     <h4>Spencer Yoder</h4>
     <p><i>In the AIAL Lab 2021 - 2022 <br /> Role: ML and Education Researcher</i></p>
     <ul style="overflow: hidden">
@@ -178,6 +179,8 @@
 
   <div class="col-sm-4 clearfix">
     <h4>Visitors</h4>
+
+    <p>Madison Thomas</p>
 
   </div>
 
@@ -232,7 +235,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="/aial/assets/js/bootstrap.min.js"></script>
-
+<script src="/aial/assets/js/pfp.js"></script>
 
   </body>
 
