@@ -18,11 +18,11 @@ jobs:
       - name: Install dependencies
         run: bundle install
       - name: Setup build branch
-        run: git worktree add ${{ runner.temp }}/${GITHUB_SHA}_site gh-built
+        run: git worktree add ${{ runner.temp }}/${{ github.sha }}_site gh-built
       - name: Build site for github
         run: bundle exec jekyll build --config _config.yml -d {{ runner.temp }}/${GITHUB_SHA}_site
       - name: Switch to the build folder
-        run: cd {{ runner.temp }}/${GITHUB_SHA}_site
+        run: cd {{ runner.temp }}/${{ github.sha }}_site
       - name: Add all built files
         run: git add -A
       - name: Commit newly built files
