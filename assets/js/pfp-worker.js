@@ -1,3 +1,5 @@
+let test = /foo/;
+
 onmessage = function(event) {
     const resCanvas = event.data.offscreen;
     const imageUrl = event.data.imageUrl;

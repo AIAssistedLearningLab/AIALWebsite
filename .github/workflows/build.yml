@@ -1,0 +1,35 @@
+name: Jekyll Site Building
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: [ "self-hosted", "ubuntu-20.04" ]
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+      - name: Setup build tool cache
+        run: mkdir -p
+      - name: Setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          ruby-version: '3.1'
+          self-hosted: true
+      - name: Install dependencies
+        run: bundle install
+      - name: Setup build branch
+        run: git worktree add {{ runner.temp }}/${GITHUB_SHA}_site gh-built
+      - name: Build site for github
+        run: bundle exec jekyll build --config _config.yml -d {{ runner.temp }}/${GITHUB_SHA}_site
+      - name: Switch to the build folder
+        run: cd {{ runner.temp }}/${GITHUB_SHA}_site
+      - name: Add all built files
+        run: git add -A
+      - name: Commit newly built files
+        run: git commit -m "Update site"
+      - name: Push the new changes
+        run: git push
+
