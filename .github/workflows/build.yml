@@ -14,8 +14,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-          ruby-version: '3.1'
-          self-hosted: true
+          ruby-version: '3.1.4'
       - name: Install dependencies
         run: bundle install
       - name: Setup build branch
