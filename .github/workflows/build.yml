@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
 jobs:
   build:
-    runs-on: [ "self-hosted", "ubuntu-20.04" ]
+    runs-on: [ "self-hosted" ]
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v3
