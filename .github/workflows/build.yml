@@ -49,3 +49,14 @@ jobs:
           path: site
       - name: Push the new changes
         run: git -C site push 
+  # Deployment job
+  deploy:
+    if: ${{ inputs.save }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: [ self-hosted ]
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
