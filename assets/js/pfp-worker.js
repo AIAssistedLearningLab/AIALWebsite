@@ -85,7 +85,7 @@ function pfpExtend(resCanvas, imageBitmap, containerWidth, containerHeight) {
             let pixel = getPixelData(imageData, width, col, row);
             if (!colorSimilar(mostRecentColor, pixel)) {
                 mostRecentColor = pixel;
-                let color = `rgb(${pixel[0]} ${pixel[1]} ${pixel[2]} / ${(pixel[3]) / 255})`;
+                let color = `rgb(${pixel[0]} ${pixel[1]} ${pixel[2]} / ${((pixel[3]) / 255) * 0.5})`;
                 gradient.addColorStop(row / height, color);
             }
         }
@@ -114,7 +114,7 @@ function pfpExtend(resCanvas, imageBitmap, containerWidth, containerHeight) {
     context.drawImage(image, 0, 0, containedWidth, containedHeight);
     let imageData = context.getImageData(0, 0, containedWidth, containedHeight).data;
 
-    const MASK_ADJUST = 0.25;
+    // const MASK_ADJUST = 0.25;
 
     if (verticalMargin > 0) {
         // console.log("Need vertical margin filling gradients");
