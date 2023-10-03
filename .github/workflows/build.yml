@@ -42,10 +42,10 @@ jobs:
         run: git -C site add -A
       - name: Commit newly built files
         run: git -C site commit -m "Update site"
-      - name: Push the new changes
-        run: git -C site push 
       - name: Upload github pages artifact
         if: ${{ inputs.save }}
         uses: actions/upload-pages-artifact@v1
         with:
           path: site
+      - name: Push the new changes
+        run: git -C site push 
