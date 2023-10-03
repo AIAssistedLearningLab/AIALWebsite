@@ -59,7 +59,7 @@ permalink: /team/
 
 
 
-# Master and Bachelor Students
+# Master's and Bachelor's Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
