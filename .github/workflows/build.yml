@@ -8,9 +8,10 @@ on:
         type: string
       branch:
         description: 'The branch to store the website artifacts in'
-        required: true
+        required: false
+        default: ''
         type: string
-      save:
+      upload:
         description: 'Whether to upload the produced artifact to the github pages group'
         required: false
         default: false
@@ -47,18 +48,21 @@ jobs:
         working-directory: main
       - name: Add all built files
         run: git -C site add -A
+        if: ${{ inputs.branch }}
       - name: Commit newly built files
         run: git -C site commit -m "Update site"
+        if: ${{ inputs.branch }}
       - name: Upload github pages artifact
-        if: ${{ inputs.save }}
+        if: ${{ inputs.upload }}
         uses: actions/upload-pages-artifact@v1
         with:
           path: site
       - name: Push the new changes
         run: git -C site push 
+        if: ${{ inputs.branch }}
   # Deployment job
   deploy:
-    if: ${{ inputs.save }}
+    if: ${{ inputs.upload }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
