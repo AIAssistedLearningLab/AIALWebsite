@@ -59,7 +59,7 @@ permalink: /team/
 
 
 
-<!-- ## Master and Bachelor Students
+# Master and Bachelor Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -71,16 +71,15 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
-  <!-- <ul style="overflow: hidden"> -->
-<!-- 
+  <i>{{ member.info }} 
   {% if member.education %}
+  <ul style="overflow: hidden"> 
     {% for education in member.education %}
     <li> {{ education }} </li>
     {% endfor %}
+  </ul>
   {% endif %}
 
-  </ul>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -94,7 +93,7 @@ permalink: /team/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %} -->
+{% endif %}
 
 
 ## Alumni

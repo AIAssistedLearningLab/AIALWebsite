@@ -1,9 +1,8 @@
 # This is where we would put Bachelors and Masters students
 
-#- name:
-#  photo: rock.jpg
-#  info:
-#  email:
-#  number_educ:
-#  education:
-#      - first
+- name: Reisha Jaishankar
+  info: Undergraduate Student
+- name: Nithya Janapti
+  info: Undergraduate Student
+- name: Ananya Rao
+  info: Undergraduate Student
