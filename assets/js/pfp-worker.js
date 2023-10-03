@@ -71,7 +71,7 @@ function pfpExtend(resCanvas, imageBitmap, containerWidth, containerHeight) {
             let pixel = getPixelData(imageData, width, col, row);
             if (!colorSimilar(mostRecentColor, pixel)) {
                 mostRecentColor = pixel;
-                gradient.addColorStop(col / width, `rgb(${pixel[0]} ${pixel[1]} ${pixel[2]} / ${pixel[3] / 255})`);
+                gradient.addColorStop(col / width, `rgb(${pixel[0]} ${pixel[1]} ${pixel[2]} / ${(pixel[3] / 255) * 0.75})`);
             }
         }
     }
@@ -85,7 +85,7 @@ function pfpExtend(resCanvas, imageBitmap, containerWidth, containerHeight) {
             let pixel = getPixelData(imageData, width, col, row);
             if (!colorSimilar(mostRecentColor, pixel)) {
                 mostRecentColor = pixel;
-                let color = `rgb(${pixel[0]} ${pixel[1]} ${pixel[2]} / ${(pixel[3]) / 255})`;
+                let color = `rgb(${pixel[0]} ${pixel[1]} ${pixel[2]} / ${((pixel[3]) / 255) * 0.75})`;
                 gradient.addColorStop(row / height, color);
             }
         }
@@ -114,18 +114,18 @@ function pfpExtend(resCanvas, imageBitmap, containerWidth, containerHeight) {
     context.drawImage(image, 0, 0, containedWidth, containedHeight);
     let imageData = context.getImageData(0, 0, containedWidth, containedHeight).data;
 
-    const MASK_ADJUST = 0.25;
+    // const MASK_ADJUST = 0.25;
 
     if (verticalMargin > 0) {
         // console.log("Need vertical margin filling gradients");
-        let maskGradient = resContext.createLinearGradient(0, 0, 0, containerHeight);
-        maskGradient.addColorStop(imageStart.y / containerHeight * MASK_ADJUST, "transparent");
-        maskGradient.addColorStop(imageStart.y / containerHeight, "white");
-        maskGradient.addColorStop(imageEnd.y / containerHeight, "white");
-        maskGradient.addColorStop(1 - (imageStart.y / containerHeight * MASK_ADJUST), "transparent");
-        resContext.fillStyle = maskGradient;
-        resContext.fillRect(0, 0, containerWidth, containerHeight);
-        resContext.globalCompositeOperation = "source-atop";
+        // let maskGradient = resContext.createLinearGradient(0, 0, 0, containerHeight);
+        // maskGradient.addColorStop(imageStart.y / containerHeight * MASK_ADJUST, "transparent");
+        // maskGradient.addColorStop(imageStart.y / containerHeight, "white");
+        // maskGradient.addColorStop(imageEnd.y / containerHeight, "white");
+        // maskGradient.addColorStop(1 - (imageStart.y / containerHeight * MASK_ADJUST), "transparent");
+        // resContext.fillStyle = maskGradient;
+        // resContext.fillRect(0, 0, containerWidth, containerHeight);
+        // resContext.globalCompositeOperation = "source-atop";
 
         let topGradient = resContext.createLinearGradient(0, 0, containerWidth, 0);
         let bottomGradient = resContext.createLinearGradient(0, 0, containerWidth, 0);
@@ -143,14 +143,14 @@ function pfpExtend(resCanvas, imageBitmap, containerWidth, containerHeight) {
         resContext.fillRect(0, imageEnd.y - 1, containerWidth, verticalMargin);
     } else if (horizontalMargin > 0) {
         // console.log("Need horizontal margin filling gradients");
-        let maskGradient = resContext.createLinearGradient(0, 0, containerWidth, 0);
-        maskGradient.addColorStop(imageStart.x / containerWidth * MASK_ADJUST, "transparent");
-        maskGradient.addColorStop(imageStart.x / containerWidth, "black");
-        maskGradient.addColorStop(imageEnd.x / containerWidth, "black");
-        maskGradient.addColorStop(1 - (imageStart.x / containerWidth * MASK_ADJUST), "transparent");
-        resContext.fillStyle = maskGradient;
-        resContext.fillRect(0, 0, containerWidth, containerHeight);
-        resContext.globalCompositeOperation = "source-atop";
+        // let maskGradient = resContext.createLinearGradient(0, 0, containerWidth, 0);
+        // maskGradient.addColorStop(imageStart.x / containerWidth * MASK_ADJUST, "transparent");
+        // maskGradient.addColorStop(imageStart.x / containerWidth, "black");
+        // maskGradient.addColorStop(imageEnd.x / containerWidth, "black");
+        // maskGradient.addColorStop(1 - (imageStart.x / containerWidth * MASK_ADJUST), "transparent");
+        // resContext.fillStyle = maskGradient;
+        // resContext.fillRect(0, 0, containerWidth, containerHeight);
+        // resContext.globalCompositeOperation = "source-atop";
         let leftGradient = context.createLinearGradient(0, 0, 0, containerHeight);
         let rightGradient = context.createLinearGradient(0, 0, 0, containerHeight);
 
