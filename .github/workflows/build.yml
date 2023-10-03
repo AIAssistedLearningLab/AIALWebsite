@@ -10,6 +10,11 @@ on:
         description: 'The branch to store the website artifacts in'
         required: true
         type: string
+      save:
+        description: 'Whether to upload the produced artifact to the github pages group'
+        required: false
+        default: false
+        type: boolean
 jobs:
   build:
     runs-on: [ "self-hosted" ]
@@ -39,4 +44,8 @@ jobs:
         run: git -C site commit -m "Update site"
       - name: Push the new changes
         run: git -C site push 
-
+      - name: Upload github pages artifact
+        if: ${{ inputs.save }}
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: site
