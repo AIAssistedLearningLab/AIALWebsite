@@ -55,6 +55,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - wiki
   
 # Markdown Processing
 kramdown:
