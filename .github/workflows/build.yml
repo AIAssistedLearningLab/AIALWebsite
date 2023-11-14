@@ -76,6 +76,7 @@ jobs:
         run: |
           git config --global user.name 'Branch Builder'
           git config --global user.email 'branch-builder@users.noreply.github.ncsu.edu'
+          git -C site add -A
           git -C site commit -m 'Update ${{ inputs.branch }}'
           git -C site push
   
