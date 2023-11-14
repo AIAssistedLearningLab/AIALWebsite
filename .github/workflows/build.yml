@@ -21,6 +21,13 @@ jobs:
   build:
     runs-on: [ "self-hosted" ]
     steps:
+      # Because this runs on a self-hosted runner, it's possible the environment
+      # isn't clean so we need to clean up beforehand
+      - name: Clean the environment
+        run: |
+          rm -rf ./* || true
+          rm -rf ./.??* || true
+
       # Checkout the main branch
       - name: Checkout main branch
         uses: actions/checkout@v4
