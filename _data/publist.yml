@@ -1,3 +1,13 @@
+- title: 'Detecting ChatGPT-Generated Code Submissions in a CS1 Course Using Machine Learning Models'
+  year: 2024
+  # image: dummy.png
+  # description: Publication with Highlight
+  authors: Hoq, M., Shi, Y., Leinonen, J., Babalola, D., Lynch, C., Price, T., and Akram, B.
+  link:
+    url: https://doi.org/10.1145/3626252.3630826
+    display: 'https://doi.org/10.1145/3626252.3630826'
+  highlight: false
+
 - title: 'SANN: Programming Code Representation Using Attention Neural Network with Optimized Subtree Extraction'
   year: 2023
   # image: dummy.png
