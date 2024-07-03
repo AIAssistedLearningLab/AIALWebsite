@@ -23,4 +23,4 @@ jobs:
     uses: ./.github/workflows/build.yml
     with:
       config: '_config.yml'
-      deploy: true
+      deploy: false
