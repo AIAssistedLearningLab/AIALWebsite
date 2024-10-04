@@ -1,3 +1,13 @@
+- title: 'An Automated Approach to Recommending Relevant Worked Examples for Programming Problems'
+  year: 2025
+  # image: dummy.png
+  # description: Publication with Highlight
+  authors: Hoq, M., Patil, A., Akhuseyinoglu, K., Brusilovsky, P., and Akram, B.
+  link:
+    url: 
+    display: ''
+  highlight: false
+
 - title: 'Detecting ChatGPT-Generated Code Submissions in a CS1 Course Using Machine Learning Models'
   year: 2024
   # image: dummy.png
