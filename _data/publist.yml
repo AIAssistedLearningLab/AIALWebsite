@@ -8,7 +8,7 @@
     display: 'https://dl.acm.org/doi/10.1145/3641554.3701951'
   highlight: false
 
-  - title: 'Explaining Explainability: Early Performance Prediction with Student Programming Pattern Profiling'
+- title: 'Explaining Explainability: Early Performance Prediction with Student Programming Pattern Profiling'
   year: 2024
   # image: dummy.png
   # description: Publication with Highlight
@@ -18,7 +18,7 @@
     display: 'https://jedm.educationaldatamining.org/index.php/JEDM/article/download/770/220'
   highlight: true
 
-  - title: 'Automated Identification of Relevant Worked Examples for Programming Problems'
+- title: 'Automated Identification of Relevant Worked Examples for Programming Problems'
   year: 2024
   # image: dummy.png
   # description: Publication with Highlight
