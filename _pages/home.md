@@ -12,7 +12,7 @@ permalink: /home/
 
 # Welcome to the AI Assisted Learning Lab
 
-This lab works at the intersection of Artificial Intelligence and education to design AI-enabled learning technologies with the goal of improving access to quality education for a diverse range of students.
+This lab works at the intersection of Artificial Intelligence and education to design AI-enabled learning technologies with the goal of improving access to quality of computer science education.
 
 ## Projects
 
@@ -24,8 +24,4 @@ With new advances in AI-enabled adaptive technologies, adaptive educational tech
 ### AI-infused STEM curriculum and technology development for K-12
 
 The integration of AI into STEM fields is becoming more and more prevalent in emerging industries. As a result, AI skills and knowledge in the context of STEM problem-solving are becoming required skills for a competent STEM workforce. The goal of this project is the integration of AI-focused real-world STEM problem-solving skills with the K-12 mainstream curriculum. This research encompasses innovative curriculum design that teaches and scaffolds necessary AI-focused problem-solving skills delivered through innovative, engaging, and effective learning technologies. Finally, classroom studies are conducted to identify the effectiveness of the designed curriculum and technology and identify points for improvement and best pedagogical practices.
-
-
-### Increasing Diversity and retention for underrepresented students in STEM fields
-The goal of the AI-Assisted Learning lab is to increase equity and access to quality education for a diverse range of students. In addition to the design, implementation, and evaluation of engaging and relevant curriculum and learning technologies, the environmental factors affecting students' participation and retention should be carefully evaluated and address. In this project, we aim to address issues related to underrepresented students' engagement and retention by identifying and eliminating socio-psychological barriers through evidence-based interventions.
 
