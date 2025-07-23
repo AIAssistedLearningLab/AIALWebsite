@@ -1,35 +1,37 @@
-  GNU nano 8.5           .github/workflows/jekyll-build.yml           Modified
-
-name: Build and Deploy Jekyll Site to `built` Branch
+name: Build and Deploy Jekyll Site
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
-  build-and-deploy:
+  jekyll:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-      - name: Set up Ruby
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2
+          ruby-version: '3.2'
 
-      - name: Install Bundler and dependencies
+      - name: Install dependencies
         run: |
           gem install bundler -v 2.4.22
           bundle install
 
-      - name: Build site with Jekyll
+      - name: Build the site
         run: bundle exec jekyll build --config _config.yml,_vhost_config.yml -d _site
 
-      - name: Deploy to `built` branch
+      - name: Push built site to built branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_branch: built
-          publish_dir: _site
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: built
+
