@@ -12,7 +12,7 @@ permalink: /home/
 
 # Welcome to the AI Assisted Learning Lab
 
-This lab works at the intersection of Artificial Intelligence and education to design AI-enabled learning technologies with the goal of improving access to quality of computer science education.
+This lab works at the intersection of AI and education to design AI-enabled learning technologies with the goal of improving access to quality of computer science education.
 
 ## Projects
 
